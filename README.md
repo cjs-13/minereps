@@ -7,13 +7,10 @@ Os arquivos que contem os links para os repositórios do GitHub devem estar na m
 
 Exemplo:
 
-https://github.com/AntennaPod/AntennaPod
-
-https://github.com/Bukkit/Bukkit
-
-https://github.com/Neamar/KISS
-
-https://github.com/airsonic/airsonic
+https://github.com/AntennaPod/AntennaPod<br />
+https://github.com/Bukkit/Bukkit<br />
+https://github.com/Neamar/KISS<br />
+https://github.com/airsonic/airsonic<br />
       
 			
 ## Sobre os arquivos gerados pelo script:
