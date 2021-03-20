@@ -1,0 +1,16 @@
+netdata, 60
+ilyam8, 36
+Ferroin, 28
+underhood, 13
+vkalintiris, 8
+jacekkolasa, 7
+stelfrag, 6
+kaskavel, 6
+thiagoftsm, 5
+MrZammler, 5
+vlvkobal, 4
+knatsakis, 4
+eltociear, 3
+ktsaou, 2
+joelhans, 2
+body:#####Summary\r\n\r\n`HOME`is`/var/lib/netdata`bydefault\r\n\r\nhttps://github.com/netdata/netdata/blob/3b5a69c2a29817f4fe114c09107f7e57e5a4d26d/daemon/common.c#L14\r\n\r\nhttps://github.com/netdata/netdata/blob/3b5a69c2a29817f4fe114c09107f7e57e5a4d26d/daemon/main.c#L545-L546\r\n\r\n---\r\n\r\nHavingnetdatauserhomedir!=`HOME`resultsinaverytrickybugs\r\nRelatedhttps://github.com/netdata/netdata/issues/10022#issuecomment-703841073\r\n\r\n#####ComponentName\r\n\r\n`packaging/docker`\r\n\r\n#####TestPlan\r\n\r\n-createanimage\r\n-startnetdatacontainer\r\n-checknetdatauserhomedir\r\n\r\n```cmd\r\n0netdata(docker_change_netdata_user_home_dir)$dockerexecnetdatagetentpasswdnetdata\r\nnetdata:x:201:201:LinuxUser:/var/lib/netdata:/usr/sbin/nologin\r\n```\r\n\r\n#####AdditionalInformation\r\n, 1
